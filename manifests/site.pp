@@ -1,7 +1,6 @@
 node default {
-  file { '/root/README' :
-      ensure => file,
-      content => 'This is a README',
-      owner => 'root',
-  }
+}
+
+node puppet-master.dev01.smile.lan {
+  include role::master_server
 }
