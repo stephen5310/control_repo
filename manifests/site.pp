@@ -1,5 +1,5 @@
 node default {
 }
-node puppet-master.dev01.smile.lan {
+node puppet-master {
   include role::master_server
 }
